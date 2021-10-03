@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    
+
+
+}
+
+#header{
+    
+    height: 50px;
+    background-color: orangered;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1;
+    
+    
+}
+
+#nav > li {
+
+    display: inline-block;
+    padding: 0 30px;
+    position: relative;
+    cursor: pointer;
+    top: -16px;
+   
+}
+
+#nav > li > a{
+
+    text-transform: uppercase;
+}
+
+
+
+#nav, #subnav{
+
+    list-style: none;
+
+}
+
+#nav li:hover{
+
+    background-color: violet;
+}
+
+
+#nav li a:hover{
+   
+    color: black;
+}
+
+#nav #pf{
+    position: absolute;
+    color: black;
+   line-height: 50px; right: 20px; top: 0;
+}
+
+#nav li a {
+
+    color: #fff;
+    text-decoration: none;
+    line-height: 50px;
+    display: inline-block;
+    
+
+}
+
+#nav li:hover #subnav {
+    display: block;
+}
+
+#nav li #subnav {
+    display: none;
+    position: absolute;
+    background-color: orangered;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+    
+   
+}
+
+#subnav li{
+
+    padding: 0 30px;
+
+}
+
+#subnav li a{
+    
+    line-height: 40px;
+}
+
+
+#slider{
+
+    position: relative;
+    margin-top: 50px;
+    padding-top: 99%;    
+    background: url('/my_proflie/assets/img/slider/1.jpg') top center / cover no-repeat;
+    
+}
+
+#slider #text-slider {
+    position: absolute;
+    bottom: 0;
+    color: orangered;
+    width: 100%;
+    text-align: center;
+}
+
+
+#content{
+
+    height: 1100px;
+
+}
+
+#content .sidebar{
+
+    position: relative;
+    height: 1000px;
+    width: 30%;
+    background-color: orangered;
+    box-sizing: border-box;
+    margin: 100px 0;
+   
+}
+
+.sidebar .slider2{
+
+    
+    padding-top: 80%;
+    background: url('/my_proflie/assets/img/slider/2.jpg') top center / cover no-repeat;
+}
+    
+.sidebar .information  h2 {
+    display: block;
+    padding-top: 20px;
+    text-align:center ;
+}
+
+.sidebar .subinformation p{
+    display: block;
+    padding-left: 10px;
+}
+
+#content .sidebar2 {
+
+    position: relative;
+    background-color: orangered;
+    height: 100px;
+    width: 70%;
+    right: -30%;
+    bottom: 1100px;
+}
+
+.sidebar2 .name{
+
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    color: peachpuff;
+}
+
+#content .sidebar3{
+
+    position: relative;
+    background-color: pink;
+    height: 900px;
+    width: 70%;   
+    right: -30%;
+    bottom: 1100px;
+
+}
+
+.sidebar3  {
+
+    position: absolute;
+    display: block;
+    padding-top:10px ;
+    width: 100%;
+    text-align: center;
+}
+
+.sidebar3 .van-ban{
+    list-style: none;
+}
+
+    
+   
+    
+
+#footer{
+
+    display: block;
+    text-align: center;
+    margin-bottom: 200px;
+
+
+}
